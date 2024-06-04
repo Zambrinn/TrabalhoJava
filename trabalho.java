@@ -8,10 +8,11 @@ public class trabalho {
         float secondSum = 0;
         int biggestValue, minorValue;
         int biggestIndex, minorIndex;
+        int aux = 0;
 
         System.out.print("Informe um tamanho para um vetor: ");
         vectorLength = scanner.nextInt();
-        int vector[] = new int[vectorLength]; // Insere o valor digitado na quantidade de índices do vetor.
+        int [] vector = new int[vectorLength]; // Insere o valor digitado na quantidade de índices do vetor.
 
         for (int i = 0; i < vectorLength; i++) { // Faz uma varredura pelos valores dos vetores.
             System.out.print("Digite o valor do vetor " + ( i + 1 ) + ": ");
